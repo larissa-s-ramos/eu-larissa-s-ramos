@@ -73,6 +73,21 @@ section {
     margin: 5px 0; /* Adiciona margens verticais entre os títulos */
     color: black; /* Define a cor do texto como preto (opcional) */
 }
+#sobre {
+    text-align: center; /* Centraliza o texto da seção "sobre" */
+    margin: 20px 0; /* Margem para separar a seção de outras partes da página */
+}
+
+#sobre h3 {
+    display: inline-block; /* Permitindo que os <h3> fiquem lado a lado */
+    margin: 10px 15px; /* Margem entre os títulos */
+    color: black; /* Manter a cor do texto como preta */
+    padding: 10px; /* Um pouco de padding para espaçamento interno */
+    border: 1px solid #ccc; /* Borda opcional para destacar os elementos */
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: #f9f9f9; /* Fundo leve para os elementos */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Sombra leve para dar um efeito de profundidade */
+}
 
 #serviços {
     /* Estilos para a seção de serviços */
