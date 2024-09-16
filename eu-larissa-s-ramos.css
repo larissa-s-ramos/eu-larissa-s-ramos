@@ -1,0 +1,151 @@
+/* styles.css */
+body {
+    font-family: 'Roboto Mono', sans-serif;
+    margin: 0; /* Remove a margem padrão */
+}
+
+header {
+    background-color: #42DF77; /* Verde-limão */
+    height: 2cm; /* Altura da navbar */
+    position: fixed; /* Fixar o header no topo */
+    top: 0; /* Alinha o header no topo da página */
+    left: 0; /* Alinha o header à esquerda da página */
+    width: 100%; /* Faz o header ocupar toda a largura da página */
+    z-index: 1000; /* Garante que o header fique acima de outros elementos */
+}
+
+nav {
+    position: absolute; /* Permite que a nav seja posicionada conforme necessário */
+    bottom: 0; /* Alinha a nav na parte inferior do header */
+    right: 0; /* Alinha a nav à direita do header */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Remove a margem padrão */
+    display: flex; /* Usar flexbox para os itens da lista */
+}
+
+nav ul li {
+    margin-right: 20px; /* Espaço entre os botões */
+}
+
+nav ul li a {
+    color: black; /* Muda a cor do texto para preto */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Adicionando um pouco de espaço extra na seção para compensar o header fixo */
+section {
+    padding-top: 4cm; /* Alterado para 4cm para ficar mais próximo do header */
+}
+
+#home {
+    text-align: center; /* Centraliza apenas o texto da seção home */
+}
+
+#home h1 {
+    margin: 5px 0; /* Adiciona margens verticais entre os títulos */
+    color: black; /* Define a cor do texto como preto (opcional) */
+}
+
+/* Estilo da imagem na seção home */
+.imagem-home {
+    width: 500px; /* Define a largura da imagem, ajustando conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: 20px; /* Espaço abaixo da imagem */
+}
+
+#sobre {
+    /* Estilos para a seção de sobre */
+}
+
+#sobre h2 {
+    margin-bottom: 10px; /* Margem abaixo do título */
+}
+
+#sobre h3 {
+    margin: 5px 0; /* Adiciona margens verticais entre os títulos */
+    color: black; /* Define a cor do texto como preto (opcional) */
+}
+
+#serviços {
+    /* Estilos para a seção de serviços */
+}
+
+#serviços h1 {
+    margin: 10px 0; /* Margem vertical para espaçar os títulos */
+    color: black; /* Define a cor do texto como preto (opcional) */
+}
+
+#contato {
+    text-align: center; /* Centraliza apenas o texto da seção home */
+}
+
+#contato {
+    /* Estilos para a seção de contato */
+}
+
+#contato h2 {
+    margin-bottom: 10px; /* Margem abaixo do título */
+}
+
+/* Estilos para o formulário de contato */
+#contact-form {
+    max-width: 400px; /* Largura máxima do formulário */
+    margin: 20px auto; /* Centraliza o formulário horizontalmente */
+    padding: 20px; /* Adiciona espaçamento interno */
+    border: 1px solid #ccc; /* Borda ao redor do formulário */
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: #f9f9f9; /* Fundo claro */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor do formulário */
+}
+
+/* Nova regra para abrir campos com uma borda de 1cm */
+#contact-form div {
+    margin-bottom: 15px; /* Espaço entre os campos do formulário */
+}
+
+#contact-form label {
+    display: block; /* Faz o rótulo ocupar toda a linha */
+    margin-bottom: 5px; /* Espaço abaixo do rótulo */
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%; /* Faz os campos do formulário ocuparem toda a largura */
+    padding: 10px; /* Adiciona espaçamento interno nos campos */
+    border: 1px solid #ccc; /* Borda dos campos */
+    border-radius: 4px; /* Bordas arredondadas nos campos */
+}
+
+/* Ajuste para garantir 1cm de espaço ao redor dos campos */
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    box-sizing: border-box; /* Inclui a borda e o padding na largura total do campo */
+    border: 1px solid #ccc; /* Borda dos campos */
+    margin: 0.5cm 0; /* Margem para os campos */
+}
+
+/* Botão */
+#contact-form button {
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    padding: 10px 15px; /* Espaço interno do botão */
+    border-radius: 5px; /* Bordas arredondadas no botão */
+    cursor: pointer; /* Muda o cursor ao passar por cima do botão */
+}
+
+#contact-form button:hover {
+    background-color: #45a049; /* Cor do botão ao passar o mouse */
+}
+
+
