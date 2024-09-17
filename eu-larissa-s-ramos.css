@@ -127,6 +127,34 @@ h1:nth-child(3) {
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Sombra leve para dar um efeito de profundidade */
 }
 
+.sobre-container {
+    display: flex; /* Usa flexbox para alinhar conteúdo lado a lado */
+    align-items: flex-start; /* Alinha os itens no topo */
+    margin: 20px auto; /* Margem para centralizar o contêiner */
+}
+
+.imagem-sobre {
+    width: 150px; /* Largura fixa para a imagem, ajuste conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 20px; /* Espaço entre a imagem e a caixa de texto */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.paragrafo-container {
+    background-color: #e0f7fa; /* Cor de fundo da caixa */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin: 20px auto; /* Margens para centralizar a caixa */
+    max-width: 800px; /* Largura máxima da caixa */
+}
+
+.texto-centralizado {
+    text-align: center; /* Centraliza o texto */
+    color: #333; /* Cor do texto */
+    line-height: 1.5; /* Altura da linha para melhor legibilidade */
+}
+
 #serviços {
     /* Estilos para a seção de serviços */
 }
