@@ -1,38 +1,38 @@
 /* styles.css */
 body {
     font-family: 'Roboto Mono', sans-serif;
-    margin: 0; /* Remove a margem padrão */
+    margin: 0;
 }
 
 header {
-    background-color: #42DF77; /* Verde-limão */
-    height: 2cm; /* Altura da navbar */
-    position: fixed; /* Fixar o header no topo */
-    top: 0; /* Alinha o header no topo da página */
-    left: 0; /* Alinha o header à esquerda da página */
-    width: 100%; /* Faz o header ocupar toda a largura da página */
-    z-index: 1000; /* Garante que o header fique acima de outros elementos */
+    background-color: #42DF77;
+    height: 2cm;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 nav {
-    position: absolute; /* Permite que a nav seja posicionada conforme necessário */
-    bottom: 0; /* Alinha a nav na parte inferior do header */
-    right: 0; /* Alinha a nav à direita do header */
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
-    margin: 0; /* Remove a margem padrão */
-    display: flex; /* Usar flexbox para os itens da lista */
+    margin: 0;
+    display: flex;
 }
 
 nav ul li {
-    margin-right: 20px; /* Espaço entre os botões */
+    margin-right: 20px;
 }
 
 nav ul li a {
-    color: black; /* Muda a cor do texto para preto */
+    color: black;
     text-decoration: none;
 }
 
@@ -40,241 +40,234 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Adicionando um pouco de espaço extra na seção para compensar o header fixo */
 section {
-    padding-top: 4cm; /* Alterado para 4cm para ficar mais próximo do header */
+    padding-top: 4cm;
 }
 
 #home {
-    text-align: center; /* Centraliza apenas o texto da seção home */
+    text-align: center;
 }
 
 #home h1 {
-    margin: 5px 0; /* Adiciona margens verticais entre os títulos */
-    color: black; /* Define a cor do texto como preto (opcional) */
+    margin: 5px 0;
+    color: black;
 }
 
 #home {
-    text-align: center; /* Centraliza o conteúdo */
-    padding: 60px 20px; /* Espaçamento interno */
-    background-color: #fff; /* Fundo branco */
-    border-radius: 10px; /* Bordas arredondadas */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .home-content {
-    display: flex; /* Usar flexbox para alinhar imagem e texto */
-    align-items: center; /* Alinha verticalmente ao centro */
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
-    flex-wrap: wrap; /* Permite que o conteúdo se mova para a próxima linha em dispositivos menores */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .imagem-home {
-    max-width: 150px; /* Largura máxima da imagem */
-    height: auto; /* Mantém a proporção da imagem */
-    margin-right: 20px; /* Margem à direita da imagem para espaçamento */
+    max-width: 150px;
+    height: auto;
+    margin-right: 20px;
 }
 
 .home-text {
-    text-align: left; /* Alinha o texto à esquerda */
+    text-align: left;
 }
 
 h1 {
-    color: #333; /* Cor do texto */
-    margin: 5px 0; /* Margens verticais entre os títulos */
-    font-size: 2em; /* Tamanho da fonte */
+    color: #333;
+    margin: 5px 0;
+    font-size: 2em;
 }
 
-/* Tamanhos de fonte para os outros h1 */
 h1:nth-child(2),
 h1:nth-child(3) {
-    font-size: 1.5em; /* Tamanhos menores para os h1 adicionais */
-    color: #555; /* Cor um pouco mais escura */
+    font-size: 1.5em;
+    color: #555;
 }
 
-/* Estilo da imagem na seção home */
 .imagem-home {
-    width: 500px; /* Define a largura da imagem, ajustando conforme necessário */
-    height: auto; /* Mantém a proporção da imagem */
-    margin-bottom: 20px; /* Espaço abaixo da imagem */
+    width: 500px;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 #sobre {
-    /* Estilos para a seção de sobre */
+
 }
 
 #sobre h2 {
-    margin-bottom: 10px; /* Margem abaixo do título */
+    margin-bottom: 10px;
 }
 
 #sobre h3 {
-    margin: 5px 0; /* Adiciona margens verticais entre os títulos */
-    color: black; /* Define a cor do texto como preto (opcional) */
+    margin: 5px 0;
+    color: black;
 }
 #sobre {
-    text-align: center; /* Centraliza o texto da seção "sobre" */
-    margin: 10px 0; /* Margem para separar a seção de outras partes da página */
+    text-align: center;
+    margin: 10px 0;
 }
 
 #sobre h3 {
-    display: inline-block; /* Permitindo que os <h3> fiquem lado a lado */
-    margin: 10px 15px; /* Margem entre os títulos */
-    color: black; /* Manter a cor do texto como preta */
-    padding: 10px; /* Um pouco de padding para espaçamento interno */
-    border: 1px solid #ccc; /* Borda opcional para destacar os elementos */
-    border-radius: 5px; /* Bordas arredondadas */
-    background-color: #f9f9f9; /* Fundo leve para os elementos */
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Sombra leve para dar um efeito de profundidade */
+    display: inline-block;
+    margin: 10px 15px;
+    color: black;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
 .sobre-container {
-    display: flex; /* Usa flexbox para alinhar conteúdo lado a lado */
-    align-items: flex-start; /* Alinha os itens no topo */
-    margin: 20px auto; /* Margem para centralizar o contêiner */
+    display: flex;
+    align-items: flex-start;
+    margin: 20px auto;
 }
 
 .imagem-sobre {
-    width: 150px; /* Largura fixa para a imagem, ajuste conforme necessário */
-    height: auto; /* Mantém a proporção da imagem */
-    margin-right: 20px; /* Espaço entre a imagem e a caixa de texto */
-    border-radius: 10px; /* Bordas arredondadas */
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
 }
 
 .paragrafo-container {
-    background-color: #e0f7fa; /* Cor de fundo da caixa */
-    padding: 20px; /* Espaçamento interno */
-    border-radius: 10px; /* Bordas arredondadas */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    margin: 20px auto; /* Margens para centralizar a caixa */
-    max-width: 800px; /* Largura máxima da caixa */
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
 }
 
 .texto-centralizado {
-    text-align: center; /* Centraliza o texto */
-    color: #333; /* Cor do texto */
-    line-height: 1.5; /* Altura da linha para melhor legibilidade */
+    text-align: center;
+    color: #333;
+    line-height: 1.5;
 }
 
 #serviços {
-    /* Estilos para a seção de serviços */
+
 }
 
 #serviços h1 {
-    margin: 10px 0; /* Margem vertical para espaçar os títulos */
-    color: black; /* Define a cor do texto como preto (opcional) */
+    margin: 10px 0;
+    color: black;
 }
 
 #serviços {
-    text-align: center; /* Centraliza o texto */
+    text-align: center;
 }
 
 .serviço {
-    display: flex; /* Usar flexbox para os serviços */
-    align-items: flex-start; /* Alinha os elementos no topo */
-    justify-content: center; /* Alinha os elementos horizontalmente no centro */
-    margin: 20px 0; /* Margem entre os serviços */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 20px 0;
 }
 
 .retangulo {
-    width: 15px; /* Largura do retângulo */
-    height: 50px; /* Altura do retângulo */
-    background-color: #42DF77; /* Cor do retângulo */
-    margin-right: 10px; /* Espaço entre o retângulo e o texto */
+    width: 15px;
+    height: 50px;
+    background-color: #42DF77;
+    margin-right: 10px;
 }
 
 h1 {
-    margin: 10px 0; /* Margem em torno do título */
-    color: black; /* Define a cor do texto como preto */
+    margin: 10px 0;
+    color: black;
 }
 
 h4 {
-    margin: 5px 0; /* Margem em torno das descrições */
-    color: #555; /* Cor para o texto h4 */
+    margin: 5px 0;
+    color: #555;
 }
 
 #contato {
-    text-align: center; /* Centraliza apenas o texto da seção home */
+    text-align: center;
 }
 
 #contato {
-    /* Estilos para a seção de contato */
+
 }
 
 #contato h2 {
-    margin-bottom: 10px; /* Margem abaixo do título */
+    margin-bottom: 10px;
 }
 
-/* Estilos para o formulário de contato */
 #contact-form {
-    max-width: 400px; /* Largura máxima do formulário */
-    margin: 20px auto; /* Centraliza o formulário horizontalmente */
-    padding: 20px; /* Adiciona espaçamento interno */
-    border: 1px solid #ccc; /* Borda ao redor do formulário */
-    border-radius: 5px; /* Bordas arredondadas */
-    background-color: #f9f9f9; /* Fundo claro */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor do formulário */
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Nova regra para abrir campos com uma borda de 1cm */
 #contact-form div {
-    margin-bottom: 15px; /* Espaço entre os campos do formulário */
+    margin-bottom: 15px;
 }
 
 #contact-form label {
-    display: block; /* Faz o rótulo ocupar toda a linha */
-    margin-bottom: 5px; /* Espaço abaixo do rótulo */
+    display: block;
+    margin-bottom: 5px;
 }
 
 #contact-form input[type="text"],
 #contact-form input[type="email"],
 #contact-form textarea {
-    width: 100%; /* Faz os campos do formulário ocuparem toda a largura */
-    padding: 10px; /* Adiciona espaçamento interno nos campos */
-    border: 1px solid #ccc; /* Borda dos campos */
-    border-radius: 4px; /* Bordas arredondadas nos campos */
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-/* Ajuste para garantir 1cm de espaço ao redor dos campos */
 #contact-form input[type="text"],
 #contact-form input[type="email"],
 #contact-form textarea {
-    box-sizing: border-box; /* Inclui a borda e o padding na largura total do campo */
-    border: 1px solid #ccc; /* Borda dos campos */
-    margin: 0.5cm 0; /* Margem para os campos */
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin: 0.5cm 0;
 }
 
-/* Botão */
 #contact-form button {
-    background-color: #4CAF50; /* Cor de fundo do botão */
-    color: white; /* Cor do texto do botão */
-    border: none; /* Remove a borda padrão */
-    padding: 10px 15px; /* Espaço interno do botão */
-    border-radius: 5px; /* Bordas arredondadas no botão */
-    cursor: pointer; /* Muda o cursor ao passar por cima do botão */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 #contact-form button:hover {
-    background-color: #45a049; /* Cor do botão ao passar o mouse */
+    background-color: #45a049;
 }
 
 footer {
-    background-color: #42DF77; /* Mesma cor do header */
-    height: 60px; /* Define a altura igual à da navbar */
-    display: flex; /* Usar flexbox para centralizar o texto e o ícone */
-    align-items: center; /* Centraliza o conteúdo verticalmente */
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
-    color: black; /* Cor do texto */
-    font-weight: bold; /* Deixa o texto em negrito */
-    margin-top: 20px; /* Margem superior para separar do conteúdo acima */
+    background-color: #42DF77;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
 }
 
 footer p {
-    margin: 0; /* Remove a margem padrão */
-    font-size: 1.2em; /* Ajusta o tamanho do texto se necessário */
-    margin-right: 10px; /* Espaço entre o texto e o ícone */
+    margin: 0;
+    font-size: 1.2em;
+    margin-right: 10px;
 }
 
 .linkedin-logo {
-    width: 24px; /* Ajusta o tamanho do logo */
-    vertical-align: middle; /* Alinha a imagem com o texto */
+    width: 24px;
+    vertical-align: middle;
 }
