@@ -21,9 +21,14 @@
     <br>
     <!-- Seções do site -->
     <section id="home" class="centralizada">
-        <img src="https://images.emojiterra.com/openmoji/v15.0/1024px/1f469-1f9b0.png" alt="ImagemDev" class="imagem-home">        <h1>LARISSA RAMOS</h1>
-        <h1>ENGINEER TECH MANAGER</h1>
-        <h1>LEADERSHIP</h1>
+        <div class="home-content"> <!-- Contêiner Flex -->
+            <img src="https://images.emojiterra.com/openmoji/v15.0/1024px/1f469-1f9b0.png" alt="ImagemDev" class="imagem-home">
+            <div class="home-text"> <!-- Contêiner para o texto -->
+                <h1>LARISSA RAMOS</h1>
+                <h1>ENGINEER TECH MANAGER</h1>
+                <h1>LEADERSHIP</h1>
+            </div>
+        </div>
     </section>
     <section id="sobre">
         <h2>Sobre:</h2>
@@ -32,16 +37,22 @@
             <h3>Infrastructure Analyst</h3>
     </section>
     <section id="serviços">
-    <h1>Serviços:</h1>
-    <div class="serviço">
-        <h1>Mentoria de Carreira</h1>
-        <h4>Descrição da Mentoria de Carreira:</h4>
-    </div>
-    <div class="serviço">
-        <h1>Mentoria de Liderança</h1>
-        <h4>Descrição da Mentoria de Liderança:</h4>
-    </div>
-</section>
+        <h1>Serviços:</h1>
+        <div class="serviço">
+            <div class="retangulo"></div>
+            <div>
+                <h1>Mentoria de Carreira</h1>
+                <h4>Descrição da Mentoria de Carreira:</h4>
+            </div>
+        </div>
+        <div class="serviço">
+            <div class="retangulo"></div>
+            <div>
+                <h1>Mentoria de Liderança</h1>
+                <h4>Descrição da Mentoria de Liderança:</h4>
+            </div>
+        </div>
+    </section>    
     <section id="contato">
     <h2><i class="fas fa-envelope"></i> Contato:</h2> <!-- Ícone de e-mail adicionado aqui -->
     <form id="contact-form">
@@ -59,6 +70,12 @@
         </div>
         <button type="submit">Enviar</button>
     </form>
-</section>
+    </section>
+    <footer>
+        <br>
+        <a href="https://www.linkedin.com/in/larissa-s-ramos/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/256/174/174857.png" alt="larissa.ramos" class="linkedin-logo">
+        </a>
+    </footer>
 </body>
 </html>
