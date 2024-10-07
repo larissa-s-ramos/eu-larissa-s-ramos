@@ -124,6 +124,7 @@ h1:nth-child(3) {
 }
 
 .sobre-container {
+    display: flex; /* Flexbox para layout em coluna */
     display: flex;
     align-items: flex-start;
     margin: 20px auto;
@@ -168,6 +169,7 @@ h1:nth-child(3) {
 }
 
 .paragrafo-container p {
+    display: flex; /* Flexbox para layout em coluna */
     text-align: justify; /* Justifica o texto dentro do display azul */
     color: #333;
     line-height: 1.6;
@@ -220,6 +222,8 @@ h1:nth-child(3) {
 }
 
 .serviço h5 {
+    display: flex; /* Flexbox para o layout dos itens de serviço */
+    flex-direction: column; /* Coloca o retângulo acima do texto */
     text-align: justify; /* Justifica o texto do <h5> */
     margin: 10px 0;
     color: #333;
@@ -239,6 +243,8 @@ h1:nth-child(3) {
 }
 
 #contact-form {
+    display: flex; /* Flexbox para o formulário */
+    flex-direction: column; /* Alinha itens em coluna */
     max-width: 400px;
     margin: 20px auto;
     padding: 20px;
