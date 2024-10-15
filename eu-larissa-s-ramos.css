@@ -169,39 +169,40 @@ h1:nth-child(3) {
 
 .paragrafo-container p {
     display: flex;
-    text-align: justify;
+    text-align: center;
     color: #333;
     line-height: 1.6;
 }
 
+
 #serviços {
-    display: flex;
-    padding: 20px;
-    text-align: center;
+    text-align: center; /* Centraliza o texto dentro da seção */
+    padding: 20px; /* Espaço interno */
 }
 
 #serviços h1 {
-    display: flex;
-    margin: 10px 0;
+    margin: 10px auto; /* Centraliza o título */
     color: black;
-    text-align: center;
+    max-width: 800px; /* Limita a largura do título */
 }
 
 .serviços-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .serviço {
     display: flex;
-    align-items: center;
-    width: 45%;
+    align-items: flex-start;
+    width: calc(50% - 20px);
     padding: 20px;
-    border-radius: 0;
-    background-color: transparent;
-    box-shadow: none;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .retangulo {
@@ -213,26 +214,15 @@ h1:nth-child(3) {
 }
 
 .serviço h1 {
-    display: flex;
     margin: 0;
     font-size: 1.5em;
     color: black;
 }
 
-.serviço h4 {
-    display: flex;
-    margin: 5px 0;
-    color: #555;
-}
-
 .serviço h5 {
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
     margin: 10px 0;
     color: #333;
 }
-
 
 #contato {
     text-align: center;
