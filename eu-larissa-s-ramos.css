@@ -225,22 +225,22 @@ h1:nth-child(3) {
 }
 
 #video {
-    text-align: center; /* Centraliza o conteúdo dentro da seção */
-    padding: 40px 20px; /* Adiciona espaçamento interno */
-    background-color: #f9f9f9; /* Cor de fundo opcional para a seção */
-    margin: 20px 0; /* Margem acima e abaixo da seção */
+    text-align: center; 
+    padding: 40px 20px; 
+    background-color: #ffffff;
+    margin: 20px 0;
 }
 
 #video h2 {
-    margin-bottom: 20px; /* Espaçamento abaixo do título */
-    color: #333; /* Cor do texto do título */
+    margin-bottom: 20px;
+    color: #333;
 }
 
 #video iframe {
-    width: 560px; /* Largura padrão do YouTube */
-    height: 315px; /* Altura padrão do YouTube */
-    max-width: 100%; /* Permite que o iframe seja responsivo */
-    height: auto; /* Mantém a altura proporcional */
+    width: 560px;
+    height: 315px;
+    max-width: 100%;
+    height: auto;
 }
 
 #contato {
