@@ -121,6 +121,7 @@ h1:nth-child(3) {
     border-radius: 5px;
     background-color: #f9f9f9;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
 }
 
 .sobre-container {
@@ -173,15 +174,18 @@ h1:nth-child(3) {
     color: #333;
     line-height: 1.6;
 }
+
 #serviços {
     text-align: center;
     padding: 20px;
 }
 
 #serviços h1 {
+    text-align: center;
     margin: 50px auto;
     color: black;
     max-width: 800px;
+    line-height: 1;
 }
 
 .serviços-container {
@@ -195,6 +199,7 @@ h1:nth-child(3) {
 
 .serviço {
     display: flex;
+    text-align: justify;
     align-items: flex-start;
     width: calc(50% - 20px);
     padding: 20px;
@@ -202,12 +207,13 @@ h1:nth-child(3) {
     background-color: #f9f9f9;
     box-shadow: 0 20px 5px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
+    line-height: 1.8;
 }
 
 .retangulo {
     display: flex;
-    width: 80px;
-    height: 150px;
+    width: 40px;
+    height: 50px;
     background-color: #42DF77;
     margin-right: 20px;
 }
