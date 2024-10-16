@@ -173,15 +173,13 @@ h1:nth-child(3) {
     color: #333;
     line-height: 1.6;
 }
-
-
 #serviços {
     text-align: center;
     padding: 20px;
 }
 
 #serviços h1 {
-    margin: 10px auto;
+    margin: 50px auto;
     color: black;
     max-width: 800px;
 }
@@ -190,8 +188,8 @@ h1:nth-child(3) {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
-    max-width: 1200px;
+    gap: 40px;
+    max-width: 12000px;
     margin: 0 auto;
 }
 
@@ -203,6 +201,7 @@ h1:nth-child(3) {
     border-radius: 10px;
     background-color: #f9f9f9;
     box-shadow: 0 20px 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
 }
 
 .retangulo {
