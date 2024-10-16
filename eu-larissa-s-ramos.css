@@ -176,14 +176,14 @@ h1:nth-child(3) {
 
 
 #serviços {
-    text-align: center; /* Centraliza o texto dentro da seção */
-    padding: 20px; /* Espaço interno */
+    text-align: center;
+    padding: 20px;
 }
 
 #serviços h1 {
-    margin: 10px auto; /* Centraliza o título */
+    margin: 10px auto;
     color: black;
-    max-width: 800px; /* Limita a largura do título */
+    max-width: 800px;
 }
 
 .serviços-container {
@@ -222,6 +222,25 @@ h1:nth-child(3) {
 .serviço h5 {
     margin: 10px 0;
     color: #333;
+}
+
+#video {
+    text-align: center; /* Centraliza o conteúdo dentro da seção */
+    padding: 40px 20px; /* Adiciona espaçamento interno */
+    background-color: #f9f9f9; /* Cor de fundo opcional para a seção */
+    margin: 20px 0; /* Margem acima e abaixo da seção */
+}
+
+#video h2 {
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    color: #333; /* Cor do texto do título */
+}
+
+#video iframe {
+    width: 560px; /* Largura padrão do YouTube */
+    height: 315px; /* Altura padrão do YouTube */
+    max-width: 100%; /* Permite que o iframe seja responsivo */
+    height: auto; /* Mantém a altura proporcional */
 }
 
 #contato {
