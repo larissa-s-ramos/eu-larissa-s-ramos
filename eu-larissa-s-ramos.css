@@ -229,7 +229,6 @@ h1:nth-child(3) {
 }
 
 #video {
-    display: grid;
     text-align: center; 
     padding: 40px 20px; 
     margin: 20px 0;
