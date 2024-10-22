@@ -164,7 +164,7 @@ h1:nth-child(3) {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
     width: 100%;
-    max-width: 1350px;
+    max-width: 1700px;
 }
 
 .paragrafo-container p {
@@ -188,33 +188,33 @@ h1:nth-child(3) {
 }
 
 .serviços-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
     gap: 40px;
-    max-width: 12000px;
+    max-width: 1700px;
     margin: 0 auto;
+    padding: 20px;
 }
 
 .serviço {
-    display: flex;
     text-align: justify;
-    align-items: flex-start;
-    width: calc(50% - 20px);
+    width: 100%;
+    max-width: 1500px;
     padding: 20px;
     border-radius: 10px;
     background-color: #e0f7fa;
-    box-shadow: 0 20px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
     line-height: 1.8;
 }
 
 .retangulo {
     display: flex;
-    width: 40px;
+    width: 10px;
     height: 50px;
     background-color: #42DF77;
-    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .serviço h1 {
@@ -226,7 +226,6 @@ h1:nth-child(3) {
 .serviço h5 {
     margin: 10px 0;
     color: #333;
-
 }
 
 #video {
